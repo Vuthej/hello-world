@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-06-12T14:26:21.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="jVrOoF37hZF-g_ath2tx" version="13.1.3" type="github">
+<mxfile host="www.draw.io" modified="2020-06-12T15:20:33.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="0-B-p6w7WvLRwYDjD4wb" version="13.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="992" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,29 +34,28 @@
         <mxCell id="rosawbqJkFUAEMJ9sPgG-31" value="While Capturing&lt;br&gt;(End of Frames&lt;br&gt;not reached)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rosawbqJkFUAEMJ9sPgG-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-34" target="rosawbqJkFUAEMJ9sPgG-40">
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="rosawbqJkFUAEMJ9sPgG-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-34" target="rosawbqJkFUAEMJ9sPgG-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-34" value="OpenCV Read&lt;br&gt;each individual frame" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rosawbqJkFUAEMJ9sPgG-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-40">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="600" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="400" y="590" />
-              <mxPoint x="400" y="590" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-40" target="rosawbqJkFUAEMJ9sPgG-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="480" width="100" height="100" as="geometry" />
+          <mxGeometry x="350" y="740" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-44" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="385" y="490" width="30" height="60" as="geometry" />
+          <mxGeometry x="385" y="750" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-48" value="&lt;h1&gt;Human Detector&lt;/h1&gt;&lt;div&gt;Deployed Feature Descriptor will identify humans within each frame of the video&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="470" width="190" height="120" as="geometry" />
+          <mxGeometry x="170" y="730" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-11" value="If &lt;br&gt;Live Stream" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="70" width="80" height="80" as="geometry" />
@@ -81,33 +80,77 @@
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-58">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="680" as="targetPoint" />
+            <mxPoint x="400" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-58" value="Euclidean Distance Calculator" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-59">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="760" as="targetPoint" />
+            <mxPoint x="400" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-59" value="Condition to check social distancing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rosawbqJkFUAEMJ9sPgG-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-61">
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-61" target="rosawbqJkFUAEMJ9sPgG-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="350" as="targetPoint" />
+            <mxPoint x="350" y="338" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="1050" />
+              <mxPoint x="20" y="350" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rosawbqJkFUAEMJ9sPgG-61" value="Display Output back on the live feed frame" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rosawbqJkFUAEMJ9sPgG-64" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="350" as="sourcePoint" />
-            <mxPoint x="350" y="349.5" as="targetPoint" />
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-68" target="rosawbqJkFUAEMJ9sPgG-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="685" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-68" value="Histogram&lt;br&gt;of&lt;br&gt;Oriented Gradients&lt;br&gt;Detector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-69" target="rosawbqJkFUAEMJ9sPgG-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-69" value="Tensorflow&lt;br&gt;Object Detection Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-70" value="&lt;h1&gt;HOG&lt;/h1&gt;&lt;div&gt;Histogram of Oriented Gradients detector is used to extract feature vectors and are fed to linear SVM for object detection.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="540" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-71" value="&lt;h1&gt;DNN&lt;/h1&gt;&lt;div&gt;Deep Convolution Neural Network is loaded and trained with COCO Dataset for human identification.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="540" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-74" target="rosawbqJkFUAEMJ9sPgG-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rosawbqJkFUAEMJ9sPgG-74" target="rosawbqJkFUAEMJ9sPgG-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-74" value="Model Selection" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rosawbqJkFUAEMJ9sPgG-78" value="Selected Model" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="365" y="650" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
